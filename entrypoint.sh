@@ -7,4 +7,4 @@
 # go to the repo root
 cd $GITHUB_WORKSPACE
 bash -c "$*"
-chmod 0777 ./target
+chmod -R 0777 * 
