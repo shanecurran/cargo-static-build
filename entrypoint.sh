@@ -7,4 +7,4 @@ ln -s /home/ec2-user/.rustup $HOME/.rustup
 # go to the repo root
 cd $GITHUB_WORKSPACE
 bash -c "$*"
-chmod -R 0777 * 
+chmod -R 0777 ./target
